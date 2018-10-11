@@ -1,0 +1,59 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.28010.2016
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{8AFC05FF-4203-4523-91BA-28365CBC2791}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "test", "test", "{AE58C641-5449-4C29-89BC-6B5A4BBB3CAF}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MyLittleBank.Api", "src\MyLittleBank.Api\MyLittleBank.Api.csproj", "{1F92324F-94AB-4041-A55C-E275E7F1D8B7}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MyLittleBank.Entities", "src\MyLittleBank.Entities\MyLittleBank.Entities.csproj", "{CA4491E5-C2B8-4C2C-8595-2846C5A7AE83}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MyLittleBank.Dal", "src\MyLittleBank.Dal\MyLittleBank.Dal.csproj", "{680211FD-5D6D-4B9B-A319-9F5E0BCC7D94}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MyLittleBank.Api.Tests", "test\MyLittleBank.Api.Tests\MyLittleBank.Api.Tests.csproj", "{5CD334B7-01E6-4298-B260-AF780623523D}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "db", "db", "{4A453E54-DF25-45A3-BDC1-3E0D682F2DD8}"
+	ProjectSection(SolutionItems) = preProject
+		db\mylittlebank_db.mdf = db\mylittlebank_db.mdf
+		db\mylittlebank_db_log.ldf = db\mylittlebank_db_log.ldf
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{1F92324F-94AB-4041-A55C-E275E7F1D8B7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1F92324F-94AB-4041-A55C-E275E7F1D8B7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1F92324F-94AB-4041-A55C-E275E7F1D8B7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1F92324F-94AB-4041-A55C-E275E7F1D8B7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CA4491E5-C2B8-4C2C-8595-2846C5A7AE83}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CA4491E5-C2B8-4C2C-8595-2846C5A7AE83}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CA4491E5-C2B8-4C2C-8595-2846C5A7AE83}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CA4491E5-C2B8-4C2C-8595-2846C5A7AE83}.Release|Any CPU.Build.0 = Release|Any CPU
+		{680211FD-5D6D-4B9B-A319-9F5E0BCC7D94}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{680211FD-5D6D-4B9B-A319-9F5E0BCC7D94}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{680211FD-5D6D-4B9B-A319-9F5E0BCC7D94}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{680211FD-5D6D-4B9B-A319-9F5E0BCC7D94}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5CD334B7-01E6-4298-B260-AF780623523D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5CD334B7-01E6-4298-B260-AF780623523D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5CD334B7-01E6-4298-B260-AF780623523D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5CD334B7-01E6-4298-B260-AF780623523D}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{1F92324F-94AB-4041-A55C-E275E7F1D8B7} = {8AFC05FF-4203-4523-91BA-28365CBC2791}
+		{CA4491E5-C2B8-4C2C-8595-2846C5A7AE83} = {8AFC05FF-4203-4523-91BA-28365CBC2791}
+		{680211FD-5D6D-4B9B-A319-9F5E0BCC7D94} = {8AFC05FF-4203-4523-91BA-28365CBC2791}
+		{5CD334B7-01E6-4298-B260-AF780623523D} = {AE58C641-5449-4C29-89BC-6B5A4BBB3CAF}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {67795CA9-9362-43F5-91D7-404858A67511}
+	EndGlobalSection
+EndGlobal
